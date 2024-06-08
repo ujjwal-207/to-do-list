@@ -47,6 +47,37 @@ body{
 .form input{
     box-sizing: border-box;
     background-color: transparent;
-    border-bottom-left-radius: 15px 3px;
-    border-bottom-right-radius: 3px 15px;
+    border-bottom-left-radius: 10px 3px;
+    border-bottom-right-radius: 3px 10px;
+    border:solid 3px transparent;
+    border-bottom:dashed 2px #3C5B6F;
+    color: hsl(260, 3%,25%,.7 );
+    width: 70%;
+    margin-bottom: 30px;
+    font-family:"BioRhyme", serif ;
+    font-size: 2rem;
+
+
+}
+button{
+    padding: 0;
+    border: none;
+    padding-bottom: 3px;
+    text-decoration: none;
+    background-color: #3C5B6F;
+    font-family:"BioRhyme", serif ;
+    
+
+}
+button span{
+    background:#B3C8CF;
+    display: block;
+    padding: .5rem 1rem;
+    border: 2px solid hsl(198 1% 29%);
+
+}
+li{
+    text-align: left;
+    position:relative;
+    padding: .5rem;
 }
