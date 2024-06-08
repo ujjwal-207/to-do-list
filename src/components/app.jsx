@@ -19,16 +19,15 @@ function App(){
 
 
     return(
-        <div>
-        <div>
+        <div className="box">
+        <div className="heading">
         <h1>To Do List</h1>
         </div>
-        <div>
+        <div className="form">
         <input onChange ={handelChange}type ="text" value={newItems} ></input>
         
         <button onClick={addItems}>
-
-            <span>Add</span>
+        <span>Add</span>
         </button>
         </div>
         <div>
@@ -37,13 +36,7 @@ function App(){
         <li>{todoitem}</li>
         </ul>
         ))}
-        
-
-
-
-
         </div>
-
         </div>
     )
 
